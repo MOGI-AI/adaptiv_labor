@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   sodipodi:docname="sigmoid.svg"
+   id="svg196"
+   version="1.1"
+   viewBox="0 0 600 320"
+   style=""
+   height="320"
+   width="600"
+   class="main-svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview104"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="2.0166667"
+     inkscape:cx="283.63636"
+     inkscape:cy="160.16529"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g65" />
+  <defs
+     id="defs-55379d">
+    <marker
+       style="overflow:visible"
+       id="marker6671"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path6669" />
+    </marker>
+    <g
+       class="clips"
+       id="g16">
+      <clipPath
+         id="clip55379dxyplot"
+         class="plotclip">
+        <rect
+           width="440"
+           height="180"
+           id="rect4" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clip55379dx">
+        <rect
+           x="80"
+           y="0"
+           width="440"
+           height="320"
+           id="rect7" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clip55379dy">
+        <rect
+           x="0"
+           y="60"
+           width="600"
+           height="180"
+           id="rect10" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clip55379dxy">
+        <rect
+           x="80"
+           y="60"
+           width="440"
+           height="180"
+           id="rect13" />
+      </clipPath>
+    </g>
+    <g
+       class="gradients"
+       id="g18" />
+    <g
+       class="patterns"
+       id="g20" />
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid"
+       id="marker6671165"
+       inkscape:stockid="marker6671165">
+      <path
+         transform="scale(0.5)"
+         style="fill:#808080;fill-rule:evenodd;stroke:#808080;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path2763" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid"
+       id="marker66717462"
+       inkscape:stockid="marker66717462">
+      <path
+         transform="scale(0.5)"
+         style="fill:#808080;fill-rule:evenodd;stroke:#808080;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path2766" />
+    </marker>
+  </defs>
+  <g
+     class="bglayer"
+     id="g23" />
+  <g
+     class="layer-below"
+     id="g29">
+    <g
+       class="imagelayer"
+       id="g25" />
+    <g
+       class="shapelayer"
+       id="g27" />
+  </g>
+  <g
+     class="layer-subplot"
+     id="g35">
+    <g
+       class="shapelayer"
+       id="g31" />
+    <g
+       class="imagelayer"
+       id="g33" />
+  </g>
+  <g
+     class="minor-gridlayer"
+     id="g41">
+    <g
+       class="x"
+       id="g37" />
+    <g
+       class="y"
+       id="g39" />
+  </g>
+  <g
+     class="gridlayer"
+     id="g59">
+    <g
+       class="x"
+       id="g51">
+      <path
+         class="xgrid crisp"
+         transform="translate(153.33)"
+         d="M 0,60 V 240"
+         style="stroke:#808080;stroke-width:0.5px;stroke-opacity:1"
+         id="path43" />
+      <path
+         class="xgrid crisp"
+         transform="translate(226.67)"
+         d="M 0,60 V 240"
+         style="stroke:#808080;stroke-width:0.5px;stroke-opacity:1"
+         id="path45" />
+      <path
+         class="xgrid crisp"
+         transform="translate(373.33)"
+         d="M 0,60 V 240"
+         style="stroke:#808080;stroke-width:0.5px;stroke-opacity:1"
+         id="path47" />
+      <path
+         class="xgrid crisp"
+         transform="translate(446.67)"
+         d="M 0,60 V 240"
+         style="stroke:#808080;stroke-width:0.5px;stroke-opacity:1"
+         id="path49" />
+    </g>
+    <g
+       class="y"
+       id="g57">
+      <path
+         class="ygrid crisp"
+         transform="translate(0,150)"
+         d="M 80,0 H 520"
+         style="stroke:#808080;stroke-width:0.5px;stroke-opacity:1"
+         id="path53" />
+      <path
+         class="ygrid crisp"
+         transform="translate(0,68.6)"
+         d="M 80,0 H 520"
+         style="stroke:#808080;stroke-width:0.5px;stroke-opacity:1"
+         id="path55" />
+    </g>
+  </g>
+  <g
+     class="zerolinelayer"
+     id="g65"
+     style="stroke-width:3;stroke-dasharray:none;stroke:#808080;stroke-opacity:1">
+    <path
+       class="xzl zl crisp"
+       transform="translate(300)"
+       d="M 0,49.090909 V 240"
+       style="fill:#818181;fill-opacity:1;stroke:#808080;stroke-width:3;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6671165)"
+       id="path61" />
+    <path
+       class="yzl zl crisp"
+       transform="translate(0,231.4)"
+       d="M 80,0 537.53157,0"
+       style="fill:#818181;fill-opacity:1;stroke:#808080;stroke-width:3;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker66717462)"
+       id="path63" />
+    <g
+       aria-label="z"
+       id="text4161"
+       style="font-style:italic;font-size:29.3333px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Italic';text-orientation:sideways;fill:#808080;stroke:none;stroke-width:0.1;stroke-linecap:round">
+      <path
+         d="m 304.76745,274.13594 c 0,-0.29334 -0.352,-0.29334 -0.44,-0.29334 -0.352,0 -0.38133,0.088 -0.49867,0.46933 -0.52799,1.46667 -1.93599,2.464 -3.19732,2.464 -0.58667,0 -1.056,-0.20533 -1.64267,-0.46933 -0.88,-0.38133 -1.232,-0.49867 -1.81866,-0.49867 -0.14667,0 -0.38134,0 -0.528,0.0293 0.20533,-0.23467 0.82133,-0.968 1.64266,-1.78933 l 4.25333,-4.19467 c 1.73066,-1.70133 3.13866,-3.93066 3.13866,-4.19466 0,-0.29333 -0.23466,-0.29333 -0.41066,-0.29333 -0.352,0 -0.38134,0.0293 -0.55734,0.38133 -0.968,1.672 -1.34933,1.81867 -1.81866,1.81867 -0.528,0 -0.82133,-0.29334 -1.37867,-1.056 -0.352,-0.46934 -0.85066,-1.144 -1.78933,-1.144 -2.17066,0 -3.43199,2.75733 -3.43199,3.34399 0,0.264 0.20533,0.32267 0.44,0.32267 0.352,0 0.38133,-0.0587 0.528,-0.41067 0.23466,-0.64533 1.08533,-1.37866 2.17066,-1.37866 0.58667,0 1.11467,0.23467 1.76,0.528 0.968,0.44 1.29066,0.44 1.73066,0.44 -0.44,0.49866 -0.704,0.82133 -1.17333,1.29066 l -4.81066,4.78133 c -1.64267,1.61333 -3.05066,3.784 -3.05066,4.07733 0,0.29333 0.264,0.29333 0.44,0.29333 0.32266,0 0.352,-0.0587 0.46933,-0.264 0.41066,-0.616 1.20266,-1.93599 2.31733,-1.93599 0.64533,0 0.88,0.32266 1.408,1.05599 0.46933,0.58667 0.90933,1.144 1.81866,1.144 2.84533,0 4.42933,-3.81333 4.42933,-4.51732 z"
+         id="path4163" />
+    </g>
+  </g>
+  <path
+     class="xlines-below"
+     id="path67"
+     d="" />
+  <path
+     class="ylines-below"
+     id="path69"
+     d="" />
+  <g
+     class="overlines-below"
+     id="g71" />
+  <g
+     class="xaxislayer-below"
+     id="g73" />
+  <g
+     class="yaxislayer-below"
+     id="g75" />
+  <g
+     class="overaxes-below"
+     id="g77" />
+  <g
+     class="plot"
+     transform="translate(80,60)"
+     clip-path="url(#clip55379dxyplot)"
+     id="g95">
+    <g
+       class="scatterlayer mlayer"
+       id="g93">
+      <g
+         class="trace scatter trace52b33b"
+         style="opacity:1;stroke-miterlimit:2"
+         id="g91">
+        <g
+           class="fills"
+           id="g79" />
+        <g
+           class="errorbars"
+           id="g81" />
+        <g
+           class="lines"
+           id="g85">
+          <path
+             class="js-line"
+             d="m 0,171 53.33,-1.31 4.45,-0.22 26.66,-2.01 4.45,-0.49 17.78,-2.65 4.44,-0.86 17.78,-4.58 4.44,-1.48 13.34,-5.4 4.44,-2.17 13.33,-7.76 4.45,-3.03 13.33,-10.46 4.45,-3.93 13.33,-12.98 4.44,-4.66 44.45,-47.52 4.44,-4.14 13.34,-11.13 4.44,-3.26 13.33,-8.41 4.45,-2.38 13.33,-5.94 4.45,-1.63 13.33,-4.01 4.44,-1.08 17.78,-3.3 4.45,-0.63 22.22,-2.22 4.44,-0.31 35.56,-1.52 4.44,-0.1 L 440,9"
+             style="opacity:1;fill:none;stroke:#636efa;stroke-width:2.5;stroke-opacity:1;stroke-dasharray:none"
+             id="path83" />
+        </g>
+        <g
+           class="points"
+           id="g87" />
+        <g
+           class="text"
+           id="g89" />
+      </g>
+    </g>
+  </g>
+  <g
+     class="overplot"
+     id="g97" />
+  <path
+     class="xlines-above crisp"
+     d="M 0,0"
+     style="fill:none"
+     id="path99" />
+  <path
+     class="ylines-above crisp"
+     d="M 0,0"
+     style="fill:none"
+     id="path101" />
+  <g
+     class="overlines-above"
+     id="g103" />
+  <g
+     class="xaxislayer-above"
+     id="g133">
+    <g
+       class="xtick"
+       id="g107">
+      <text
+         text-anchor="middle"
+         x="0"
+         y="253"
+         transform="translate(80)"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;white-space:pre;opacity:1;fill:#818181;fill-opacity:1"
+         id="text105">−6</text>
+    </g>
+    <g
+       class="xtick"
+       id="g111">
+      <text
+         text-anchor="middle"
+         x="0"
+         y="253"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;white-space:pre;opacity:1;fill:#818181;fill-opacity:1"
+         transform="translate(153.33)"
+         id="text109">−4</text>
+    </g>
+    <g
+       class="xtick"
+       id="g115">
+      <text
+         text-anchor="middle"
+         x="0"
+         y="253"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;white-space:pre;opacity:1;fill:#818181;fill-opacity:1"
+         transform="translate(226.67)"
+         id="text113">−2</text>
+    </g>
+    <g
+       class="xtick"
+       id="g119">
+      <text
+         text-anchor="middle"
+         x="0"
+         y="253"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;white-space:pre;opacity:1;fill:#818181;fill-opacity:1"
+         transform="translate(300)"
+         id="text117">0</text>
+    </g>
+    <g
+       class="xtick"
+       id="g123">
+      <text
+         text-anchor="middle"
+         x="0"
+         y="253"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;white-space:pre;opacity:1;fill:#818181;fill-opacity:1"
+         transform="translate(373.33)"
+         id="text121">2</text>
+    </g>
+    <g
+       class="xtick"
+       id="g127">
+      <text
+         text-anchor="middle"
+         x="0"
+         y="253"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;white-space:pre;opacity:1;fill:#818181;fill-opacity:1"
+         transform="translate(446.67)"
+         id="text125">4</text>
+    </g>
+    <g
+       class="xtick"
+       id="g131">
+      <text
+         text-anchor="middle"
+         x="0"
+         y="253"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;white-space:pre;opacity:1;fill:#818181;fill-opacity:1"
+         transform="translate(520)"
+         id="text129">6</text>
+    </g>
+  </g>
+  <g
+     class="yaxislayer-above"
+     id="g147">
+    <g
+       class="ytick"
+       id="g137">
+      <text
+         text-anchor="end"
+         x="79"
+         y="4.1999998"
+         transform="translate(0,231.4)"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;white-space:pre;opacity:1;fill:#818181;fill-opacity:1"
+         id="text135">0</text>
+    </g>
+    <g
+       class="ytick"
+       id="g141">
+      <text
+         text-anchor="end"
+         x="79"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;white-space:pre;opacity:1;fill:#818181;fill-opacity:1"
+         transform="translate(0,150)"
+         id="text139">0.5</text>
+    </g>
+    <g
+       class="ytick"
+       id="g145">
+      <text
+         text-anchor="end"
+         x="79"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;white-space:pre;opacity:1;fill:#818181;fill-opacity:1"
+         transform="translate(0,68.6)"
+         id="text143">1</text>
+    </g>
+  </g>
+  <g
+     class="overaxes-above"
+     id="g149" />
+  <g
+     class="polarlayer"
+     id="g155" />
+  <g
+     class="smithlayer"
+     id="g157" />
+  <g
+     class="ternarylayer"
+     id="g159" />
+  <g
+     class="geolayer"
+     id="g161" />
+  <g
+     class="funnelarealayer"
+     id="g163" />
+  <g
+     class="pielayer"
+     id="g165" />
+  <g
+     class="iciclelayer"
+     id="g167" />
+  <g
+     class="treemaplayer"
+     id="g169" />
+  <g
+     class="sunburstlayer"
+     id="g171" />
+  <g
+     class="glimages"
+     id="g173" />
+  <defs
+     id="topdefs-55379d">
+    <g
+       class="clips"
+       id="g175" />
+  </defs>
+  <g
+     class="layer-above"
+     id="g182">
+    <g
+       class="imagelayer"
+       id="g178" />
+    <g
+       class="shapelayer"
+       id="g180" />
+  </g>
+  <g
+     class="g-gtitle"
+     id="g184" />
+  <g
+     class="g-xtitle"
+     id="g188">
+    <text
+       class="xtitle"
+       x="300"
+       y="280.79999"
+       text-anchor="middle"
+       style="font-weight:normal;font-size:14px;font-family:'Open Sans', verdana, arial, sans-serif;white-space:pre;opacity:1;fill:#808080;fill-opacity:1"
+       id="text186" />
+  </g>
+  <g
+     aria-label="z"
+     id="text10013"
+     style="font-size:29.3333px;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;fill:none;stroke:none;stroke-linecap:round">
+    <path
+       d="m 305.75918,270.51606 c 0,-0.29333 -0.352,-0.29333 -0.44,-0.29333 -0.352,0 -0.38133,0.088 -0.49867,0.46933 -0.52799,1.46667 -1.93599,2.464 -3.19733,2.464 -0.58666,0 -1.05599,-0.20533 -1.64266,-0.46933 -0.88,-0.38134 -1.232,-0.49867 -1.81866,-0.49867 -0.14667,0 -0.38134,0 -0.528,0.0293 0.20533,-0.23466 0.82133,-0.968 1.64266,-1.78933 l 4.25333,-4.19466 c 1.73066,-1.70133 3.13866,-3.93066 3.13866,-4.19466 0,-0.29333 -0.23466,-0.29333 -0.41066,-0.29333 -0.352,0 -0.38134,0.0293 -0.55734,0.38133 -0.968,1.672 -1.34933,1.81866 -1.81866,1.81866 -0.528,0 -0.82133,-0.29333 -1.37867,-1.056 -0.352,-0.46933 -0.85066,-1.14399 -1.78933,-1.14399 -2.17066,0 -3.43199,2.75733 -3.43199,3.34399 0,0.264 0.20533,0.32267 0.44,0.32267 0.352,0 0.38133,-0.0587 0.528,-0.41067 0.23466,-0.64533 1.08533,-1.37866 2.17066,-1.37866 0.58667,0 1.11466,0.23466 1.76,0.528 0.968,0.44 1.29066,0.44 1.73066,0.44 -0.44,0.49866 -0.704,0.82133 -1.17333,1.29066 l -4.81066,4.78133 c -1.64267,1.61333 -3.05066,3.78399 -3.05066,4.07733 0,0.29333 0.264,0.29333 0.44,0.29333 0.32266,0 0.35199,-0.0587 0.46933,-0.264 0.41066,-0.616 1.20266,-1.936 2.31733,-1.936 0.64533,0 0.88,0.32267 1.408,1.056 0.46933,0.58667 0.90933,1.144 1.81866,1.144 2.84533,0 4.42933,-3.81333 4.42933,-4.51733 z"
+       style="-inkscape-font-specification:'Latin Modern Roman,  Italic';stroke:none;fill:none"
+       id="path1122" />
+  </g>
+  <g
+     aria-label="g(z)"
+     transform="rotate(-90)"
+     id="text10013-8"
+     style="font-size:29.3333px;font-family:Calibri;-inkscape-font-specification:Calibri;text-orientation:sideways;fill:#808080;stroke:none;stroke-linecap:round;stroke-width:0.1;stroke-dasharray:none">
+    <path
+       d="m -165.6807,46.704004 3.19733,-12.847985 c 0.11733,-0.439999 0.11733,-0.498666 0.11733,-0.615999 0,-0.615999 -0.49866,-0.762666 -0.79199,-0.762666 -0.352,0 -1.02667,0.234667 -1.144,1.085332 -0.41067,-0.850665 -1.20267,-1.671998 -2.464,-1.671998 -3.28533,0 -6.65866,4.341329 -6.65866,8.477324 0,2.49333 1.37867,4.487995 3.57866,4.487995 1.496,0 2.75733,-1.202666 3.10933,-1.554665 l -0.616,2.463997 c -0.352,1.466665 -0.528,2.082664 -1.34933,3.079996 -1.17333,1.378665 -2.34666,1.378665 -2.78666,1.378665 -0.38133,0 -1.29067,0 -2.08267,-0.322666 0.58667,-0.234666 0.93867,-0.850666 0.93867,-1.349332 0,-0.381333 -0.264,-0.938665 -1.02667,-0.938665 -0.52799,0 -1.43733,0.410666 -1.43733,1.554665 0,1.173332 1.08534,1.701331 3.54933,1.701331 3.08,0 5.30933,-1.935998 5.86666,-4.165329 z m -0.46933,-5.719993 c -0.23467,0.938666 -2.024,3.226663 -3.63733,3.226663 -1.584,0 -1.64266,-2.229331 -1.64266,-2.551997 0,-1.407998 0.87999,-4.839994 1.49599,-6.21866 0.73334,-1.583998 2.024,-2.903996 3.168,-2.903996 1.76,0 2.024,2.463997 2.024,2.698663 l -0.088,0.410667 z"
+       style="font-style:italic;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Italic';stroke-width:0.1;stroke-dasharray:none;stroke:none"
+       id="path1107" />
+    <path
+       d="m -155.20874,51.895999 c 0,0 0,-0.117334 -0.20533,-0.410667 -1.584,-2.40533 -1.81866,-4.898661 -1.81866,-6.951992 0,-3.989328 1.73066,-14.871983 8.77065,-20.855976 0.41067,-0.410666 0.44,-0.439999 0.44,-0.527999 0,-0.205333 -0.11733,-0.293333 -0.29333,-0.293333 -0.32267,0 -3.696,2.375997 -6.24799,6.541326 -3.22667,5.309327 -4.136,10.94132 -4.136,14.079984 0,1.730664 0.264,3.578662 0.792,5.045327 0.73333,1.965331 1.99466,3.666663 2.40533,3.666663 0.176,0 0.29333,-0.117334 0.29333,-0.293333 z"
+       style="font-style:italic;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Italic';stroke-width:0.1;stroke-dasharray:none;stroke:none"
+       id="path1109" />
+    <path
+       d="m -138.45941,40.661345 c 0,-0.293333 -0.352,-0.293333 -0.44,-0.293333 -0.352,0 -0.38133,0.088 -0.49867,0.469333 -0.52799,1.466665 -1.93599,2.463997 -3.19732,2.463997 -0.58667,0 -1.056,-0.205333 -1.64267,-0.469333 -0.88,-0.381333 -1.232,-0.498666 -1.81866,-0.498666 -0.14667,0 -0.38134,0 -0.528,0.02933 0.20533,-0.234666 0.82133,-0.967999 1.64266,-1.789331 l 4.25333,-4.194662 c 1.73066,-1.701331 3.13866,-3.930662 3.13866,-4.194662 0,-0.293333 -0.23466,-0.293333 -0.41066,-0.293333 -0.352,0 -0.38134,0.02933 -0.55734,0.381333 -0.968,1.671998 -1.34933,1.818665 -1.81866,1.818665 -0.528,0 -0.82133,-0.293333 -1.37867,-1.055999 -0.352,-0.469333 -0.85066,-1.143999 -1.78933,-1.143999 -2.17066,0 -3.43199,2.75733 -3.43199,3.343996 0,0.264 0.20533,0.322667 0.44,0.322667 0.352,0 0.38133,-0.05867 0.528,-0.410667 0.23466,-0.645332 1.08533,-1.378665 2.17066,-1.378665 0.58667,0 1.11467,0.234667 1.76,0.528 0.968,0.439999 1.29066,0.439999 1.73066,0.439999 -0.44,0.498666 -0.704,0.821333 -1.17333,1.290665 l -4.81066,4.781328 c -1.64267,1.613332 -3.05066,3.783996 -3.05066,4.077329 0,0.293333 0.264,0.293333 0.44,0.293333 0.32266,0 0.352,-0.05867 0.46933,-0.264 0.41066,-0.615999 1.20266,-1.935998 2.31733,-1.935998 0.64533,0 0.88,0.322667 1.408,1.055999 0.46933,0.586666 0.90933,1.143999 1.81866,1.143999 2.84533,0 4.42933,-3.813329 4.42933,-4.517328 z"
+       style="font-style:italic;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Italic';stroke-width:0.1;stroke-dasharray:none;stroke:none"
+       id="path1111" />
+    <path
+       d="m -127.95808,31.568022 c 0,-1.730665 -0.264,-3.578663 -0.792,-5.045328 -0.73333,-1.965331 -1.99466,-3.666662 -2.40533,-3.666662 -0.176,0 -0.29333,0.117333 -0.29333,0.293333 0,0 0,0.117333 0.20533,0.410666 1.584,2.405331 1.81867,4.898661 1.81867,6.951992 0,3.989329 -1.73067,14.871983 -8.77066,20.855976 -0.41067,0.410666 -0.44,0.44 -0.44,0.528 0,0.205333 0.11733,0.293333 0.29333,0.293333 0.32267,0 3.696,-2.375998 6.248,-6.541326 3.22666,-5.309328 4.13599,-10.941321 4.13599,-14.079984 z"
+       style="font-style:italic;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Italic';stroke-width:0.1;stroke-dasharray:none;stroke:none"
+       id="path1113" />
+  </g>
+</svg>
